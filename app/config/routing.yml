@@ -1,0 +1,3 @@
+article:
+    resource: "@ArticleBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -1,0 +1,27 @@
+{% extends "ArticleBundle::layout.html.twig" %}
+
+{% block testplatform_body %}
+
+  <h2>{{ post.title }}</h2>
+  <i>Par {{ post.author }}, le {{ post.date|date('d/m/Y') }}</i>
+
+  <div class="well">
+    {{ post.content }}
+  </div>
+
+  <p>
+    <a href="{{ path('article_homepage') }}" class="btn btn-default">
+      <i class="glyphicon glyphicon-chevron-left"></i>
+      Retour à la liste
+    </a>
+    <a href="{{ path('article_edit', {'id': post.id}) }}" class="btn btn-default">
+      <i class="glyphicon glyphicon-edit"></i>
+      Modifier l'annonce
+    </a>
+    <a href="{{ path('article_edit', {'id': post.id}) }}" class="btn btn-danger">
+      <i class="glyphicon glyphicon-trash"></i>
+      Supprimer l'annonce
+    </a>
+  </p>
+
+{% endblock %}

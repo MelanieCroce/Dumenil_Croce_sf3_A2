@@ -17,7 +17,21 @@ class ArticleController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('ArticleBundle:Article:index.html.twig');
+		
+		$repository = $this
+		  ->getDoctrine()
+		  ->getManager()
+		  ->getRepository('ArticleBundle:Post')
+		;
+
+		$listArticle = $repository->findAll();
+		
+        $content = $this->get('templating')->render('ArticleBundle:Article:index.html.twig', array(
+        'listArticle' => $listArticle
+    	));
+    	
+		return new Response($content);		
+		
     }
 	
 	
@@ -54,6 +68,23 @@ class ArticleController extends Controller
 
 
 		return $this->render('ArticleBundle:Article:edit.html.twig');
+	}
+	
+	public function tagAction($tag) 
+	{
+		$repository = $this
+		  ->getDoctrine()
+		  ->getManager()
+		  ->getRepository('ArticleBundle:Post')
+		;
+		
+		$listArticle = $repository->findByTag($tag);
+		
+        $content = $this->get('templating')->render('ArticleBundle:Article:index.html.twig', array(
+        'listArticle' => $listArticle
+    	));
+    	
+		return new Response($content);
 	}
 	
 	public function viewAction($id)

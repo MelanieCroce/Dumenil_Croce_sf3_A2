@@ -15,3 +15,7 @@ article_edit:
 article_add:
     path:    /add
     defaults: { _controller: ArticleBundle:Article:add }
+
+article_tag:
+    path:    /tag/{tag}
+    defaults: { _controller: ArticleBundle:Article:tag }

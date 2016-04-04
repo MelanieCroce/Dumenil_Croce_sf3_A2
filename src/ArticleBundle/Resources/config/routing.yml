@@ -11,6 +11,8 @@ article_view:
 article_edit:
     path:    /edit/{id}
     defaults: { _controller: ArticleBundle:Article:edit }
+    requirements: 
+        id: \d+
 
 article_add:
     path:    /add

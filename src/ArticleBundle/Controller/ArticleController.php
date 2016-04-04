@@ -63,13 +63,6 @@ class ArticleController extends Controller
 			
 	}
 	
-	public function editAction()
-	{
-
-
-		return $this->render('ArticleBundle:Article:edit.html.twig');
-	}
-	
 	public function tagAction($tag) 
 	{
 		$repository = $this

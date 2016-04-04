@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3edd645b-daaa-46e2-8fc1-76950df96040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleBundle/ArticleBundle.php" afterPath="$PROJECT_DIR$/src/ArticleBundle/ArticleBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleBundle/Resources/views/Article/edit.html.twig" afterPath="$PROJECT_DIR$/src/ArticleBundle/Resources/views/Article/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_0b2da48c07ab9b5eb201075417ada0e6" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_0b2da48c07ab9b5eb201075417ada0e6" />
-    </list>
+    <list default="true" id="3edd645b-daaa-46e2-8fc1-76950df96040" name="Default" comment="" />
     <ignored path="Dumenil_Croce_sf3_A2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />

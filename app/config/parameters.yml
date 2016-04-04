@@ -2,7 +2,7 @@
 parameters:
     database_host: localhost
     database_port: 8889
-    database_name: Symfony
+    database_name: symfony
     database_user: root
     database_password: root
     mailer_transport: smtp

@@ -1,5 +1,19 @@
 {% extends "ArticleBundle::layout.html.twig" %}
 {% block testplatform_body %}
-blablablablabllba
+    Modifier une annonce - {{ parent ()}}
 
+{% endblock %}
+
+{% block article_body %}
+
+<h2>Modifier une annonce</h2>
+
+{{ include("ArticleBundle:Article:edit.html.twig") }}
+
+<p>
+    <a href="{{  path('Article_views',{'id: article.id'}) }}" class="btn bnt-default">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Retour à l'annonce
+    </a>
+</p>
 {% endblock %}
